@@ -26,7 +26,7 @@ class Second extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         key: Key('addItem_floatingActionButton'),
-        onPressed: () => context.read<Cart>().addItem('Item ${DateTime.now().second}'),
+        onPressed: () => context.read<Cart>().addItem('novo item ❤'),
         tooltip: 'Adicionar novo item!',
         child: const Icon(Icons.add),
       ),
